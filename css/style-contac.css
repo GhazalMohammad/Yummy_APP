@@ -1,0 +1,94 @@
+body {
+    background-color: #1E202B;
+}
+.main-navigation .menu .current-menu-item a{
+    padding: 5px 25px;
+    border: 2px solid #009AD8;
+    border-radius: 30px;
+}
+.main-navigation .menu a {
+    color: #fff;
+}
+.main-navigation .menu a:hover {
+   color: #009AD8;
+    border: 2px solid #009AD8;
+    border-radius: 30px;
+    font-weight: 400;
+}
+/* End-nav */
+/* start header */
+.find-location {
+    position: relative;
+  }
+
+  .find-location .Home  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 120px;
+  }
+  .find-location .contact {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 200px;
+  }
+.find-location input {
+    background-color: #262936;
+    border: none;
+    border-radius: 30px;
+    width: 85%;
+}
+.find-location a {
+    color: #BFB394;
+}
+.contact-detalis {
+    background-color: #262936;
+}
+.contet-info {
+    padding-top: 200px;
+}
+.contact-detalis {
+    border-radius: 15px;
+}
+.lead {
+    color: #BFC1C8;
+    font-size: 1rem;
+}
+.contact-form input {
+    background-color: #262936;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+.contact-form textarea {
+    border-radius: 30px;
+    height: 200px;
+    background-color: #262936;
+    border: none;
+}
+/* end header */
+.site-footer {
+    background-color: #262936;
+    min-height: 310px;
+    margin-top: 150px;
+}
+#search {
+    background-color: #262936;
+    border: none;
+    border-radius: 30px;
+    width: 85%;
+}
+#sumbit {
+    background-color: #009AD8;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+}
+#search2 {
+    background-color: #1E202B;
+    border: none;
+    border-radius: 30px;
+    width: 85%;
+}
+/* end footer */
